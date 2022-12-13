@@ -3,19 +3,20 @@ import React from 'react';
 
 export default function () {
   return (
-    <div className='w-full h-full mt-[100px] pt-[50x]' id='pricing'>
-        <div className='w-full h-full flex flex-col items-center px-[100px]'>
+    <div className='w-full h-full mt-[100px] pt-[50px]' id='pricing'>
+        {/* container */}
+        <div className='w-full h-full flex flex-col items-center px-[40px] xl:px-[100px]'>
             {/* header */}
             <div className='flex flex-col items-center gap-8 mb-[50px]'>
                 <h6 className='text-lightBlue texl-xl font-semibold' >PRICING PLANS</h6>
-                <h1 className='text-[60px] text-white font-bold w-full leading-[70px] text-center'>Hosting With Freedom Built-In</h1>
+                <h1 className='text-[30px] sm:text-[50px] lg:text-[60px] text-white font-bold w-full lg:leading-[70px] text-center'>Hosting With Freedom Built-In</h1>
             </div>
             {/* header end */}
 
             {/* cards */}
-            <div className='flex gap-10'>
+            <div className='flex flex-col xl:flex-row gap-10'>
                 {/* card */}
-                <div className='w-[399px] h-[788px] rounded-[20px] flex flex-col px-5 py-5 justify-between bg-white'>
+                <div className='rounded-[20px] flex flex-col px-5 py-5 justify-between bg-white'>
                     {/* header */}
                     <div className='flex flex-col'>
                         <h3 className='text-[40px] font-bold'>Hatchling Plan</h3>
@@ -41,7 +42,7 @@ export default function () {
                 </div>
 
                 {/* card */}
-                <div className='w-[399px] h-[788px] rounded-[20px] flex flex-col px-5 py-5 justify-between bg-white'>
+                <div className='rounded-[20px] flex flex-col px-5 py-5 justify-between bg-white'>
                     {/* header */}
                     <div className='flex flex-col'>
                         <h3 className='text-[40px] font-bold'>Hatchling Plan</h3>
@@ -67,7 +68,7 @@ export default function () {
                 </div>
 
                 {/* card */}
-                <div className='w-[399px] h-[788px] rounded-[20px] flex flex-col px-5 py-5 justify-between bg-white'>
+                <div className='rounded-[20px] flex flex-col px-5 py-5 justify-between bg-white'>
                     {/* header */}
                     <div className='flex flex-col'>
                         <h3 className='text-[40px] font-bold'>Hatchling Plan</h3>
@@ -98,8 +99,8 @@ export default function () {
             {/* map */}
             <div className='mt-[100px] flex flex-col items-center gap-5'>
                 <h6 className='text-lightBlue texl-xl font-semibold'>SERVERS WORLDWIDE</h6>
-                <h1 className='text-[60px] text-white font-bold w-[791px] leading-[70px] text-center'>Luxurious, Grand, Spacious, Always Uptime</h1>
-                <div className='bg-map w-[1255px] h-[638px] mt-[50px] bg-cover'></div>
+                <h1 className='text-[30px] sm:text-[50px] lg:text-[60px] text-white font-bold lg:w-[791px] lg:leading-[70px] text-center'>Luxurious, Grand, Spacious, Always Uptime</h1>
+                <div className='bg-map w-full h-[200px] sm:h-[400px] md:h-[500px] xl:w-[1255px] xl:h-[638px] mt-[50px] bg-contain bg-no-repeat '></div>
             </div>          
         </div>
     </div>

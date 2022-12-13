@@ -12,12 +12,12 @@ import date from '../assets/icons/date.png';
 export default function Footer() {
   return (
     <div>
-        <div className='px-[100px] py-[120px] flex  justify-between'>
+        <div className='px-[40px] xl:px-[100px] py-[30px] xl:py-[120px] flex flex-col xl:flex-row gap-16 items-center xl:items-start justify-between'>
             {/* left */}
             <div>
-                <h3 className='text-[40px] text-white font-bold mb-5'>Host Beta</h3>
-                <p className='text-xl text-lightGray w-[502px] font-medium mb-10'>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Nullam in nibh vehicula.</p>
-                <div className='flex gap-5'>
+                <h3 className='text-[40px] text-center xl:text-start text-white font-bold mb-5'>Host Beta</h3>
+                <p className='text-xl text-lightGray text-center xl:text-start lg:w-[502px] font-medium mb-10'>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Nullam in nibh vehicula.</p>
+                <div className='flex flex-wrap justify-center xl:justify-start gap-5'>
                     <a href='#' className='bg-white flex items-center justify-center w-[60px] h-[60px] rounded-full'>
                         <img src={twitter} className='w-[40px] h-[40px]' alt="" />
                     </a>
@@ -38,7 +38,7 @@ export default function Footer() {
             {/* left end */}
 
             {/* right */}
-            <div className='flex gap-8'>
+            <div className='flex flex-wrap sm:flex-nowrap gap-8'>
                 {/* col */}
                 <div>
                     <h1 className='text-white text-[32px] font-bold mb-5'>Get In Touch</h1>
